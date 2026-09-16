@@ -10,7 +10,7 @@ redirect_from:
 
 <span class="anchor" id="about-me"></span>
 
-# About Me
+# 👋 About Me
 
 I am **Ziqing Zhang (张梓晴)**, an undergraduate student in Computer Science and Technology (Yongqiang Class) at the [School of Computer Science](https://www.cs.sjtu.edu.cn/), [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/).
 
@@ -20,23 +20,25 @@ Feel free to reach out at [zhangziqing@sjtu.edu.cn](mailto:zhangziqing@sjtu.edu.
 
 <span class="anchor" id="publications"></span>
 
-# Publications
+# 📝 Publications
+
+<sup>*</sup> Equal contribution · <sup>†</sup> Corresponding author
 
 ### InfVSR: Toward Consistency-Driven Streaming Generative Video Super-Resolution
 
-**Ziqing Zhang**, Kai Liu, Zheng Chen, Xi Li, Yucong Chen, Bingnan Duan, Linghe Kong, Yulun Zhang<br>
+**Ziqing Zhang**, Kai Liu, Zheng Chen, Xi Li, Yucong Chen, Bingnan Duan, Linghe Kong<sup>†</sup>, Yulun Zhang<sup>†</sup><br>
 **ICML 2026**<br>
 [Paper](https://arxiv.org/abs/2510.00948) · [Code](https://github.com/Kai-Liu001/InfVSR)
 
 ### The Fourth Challenge on Image Super-Resolution (×4) at NTIRE 2026: Benchmark Results and Method Overview
 
-Zheng Chen, Kai Liu, Jingkai Wang, Xianglong Yan, Jianze Li, **Ziqing Zhang**, et al.<br>
+Zheng Chen, Kai Liu, Jingkai Wang, Xianglong Yan, Jianze Li, **Ziqing Zhang**, Jue Gong, Jiatong Li, Lei Sun, Xiaoyang Liu, Radu Timofte, Yulun Zhang<sup>†</sup>, et al.<br>
 **CVPR Workshops (NTIRE), 2026**<br>
 [Paper](https://arxiv.org/abs/2604.14558)
 
 ### The First Challenge on Remote Sensing Infrared Image Super-Resolution at NTIRE 2026: Benchmark Results and Method Overview
 
-Kai Liu, Haoyang Yue, Zeli Lin, Zheng Chen, Jingkai Wang, Jue Gong, Jiatong Li, Xianglong Yan, Libo Zhu, Jianze Li, **Ziqing Zhang**, et al.<br>
+Kai Liu, Haoyang Yue, Zeli Lin, Zheng Chen, Jingkai Wang, Jue Gong, Jiatong Li, Xianglong Yan, Libo Zhu, Jianze Li, **Ziqing Zhang**, Zihan Zhou, Xiaoyang Liu, Radu Timofte, Yulun Zhang<sup>†</sup>, et al.<br>
 **CVPR Workshops (NTIRE), 2026**<br>
 [Paper](https://arxiv.org/abs/2604.21312)
 
@@ -44,19 +46,19 @@ Kai Liu, Haoyang Yue, Zeli Lin, Zheng Chen, Jingkai Wang, Jue Gong, Jiatong Li, 
 
 ### DRScaffold: Boosting Dense-Scene Reasoning in Lightweight Vision Language Models
 
-Xinrui Shi, Kai Liu, **Ziqing Zhang**, Jianze Li, Anqi Li, Yulun Zhang<br>
+Xinrui Shi<sup>*</sup>, Kai Liu<sup>*</sup>, **Ziqing Zhang**, Jianze Li, Anqi Li, Yulun Zhang<sup>†</sup><br>
 **arXiv, 2026**<br>
 [Paper](https://arxiv.org/abs/2605.26038)
 
 ### Dog-IQA: Standard-guided Zero-shot MLLM for Mix-grained Image Quality Assessment
 
-Kai Liu, **Ziqing Zhang**, Wenbo Li, Renjing Pei, Fenglong Song, Xiaohong Liu, Linghe Kong, Yulun Zhang<br>
+Kai Liu<sup>*</sup>, **Ziqing Zhang**<sup>*</sup>, Wenbo Li, Renjing Pei, Fenglong Song, Xiaohong Liu, Linghe Kong<sup>†</sup>, Yulun Zhang<sup>†</sup><br>
 **arXiv, 2024**<br>
 [Paper](https://arxiv.org/abs/2410.02505)
 
 <span class="anchor" id="education"></span>
 
-# Education
+# 🎓 Education
 
 - **Shanghai Jiao Tong University**, Shanghai, China<br>
   Sep. 2023 – Present · Undergraduate, Computer Science and Technology (Yongqiang Class)<br>
@@ -66,7 +68,7 @@ Kai Liu, **Ziqing Zhang**, Wenbo Li, Renjing Pei, Fenglong Song, Xiaohong Liu, L
 
 <span class="anchor" id="awards"></span>
 
-# Honors and Awards
+# 🏆 Honors and Awards
 
 - **National Scholarship**, 2025 (Top 1%)
 - **Meritorious Winner**, Mathematical Contest in Modeling (MCM), 2025 (Top 7%)
@@ -75,7 +77,7 @@ Kai Liu, **Ziqing Zhang**, Wenbo Li, Renjing Pei, Fenglong Song, Xiaohong Liu, L
 
 <span class="anchor" id="service"></span>
 
-# Academic Service
+# 🤝 Academic Service
 
 - **Reviewer:** CVPR 2026, ECCV 2026, NeurIPS 2026, AAAI 2027
 - **Co-organizer:** NTIRE 2026 Image SR (×4) & Remote Sensing Infrared SR Challenges (CVPRW)
@@ -83,6 +85,6 @@ Kai Liu, **Ziqing Zhang**, Wenbo Li, Renjing Pei, Fenglong Song, Xiaohong Liu, L
 
 <span class="anchor" id="contact"></span>
 
-# Contact
+# 📫 Contact
 
 [Email](mailto:zhangziqing@sjtu.edu.cn) · [Google Scholar](https://scholar.google.com/citations?user=lu17sj4AAAAJ) · [GitHub](https://github.com/zzqingz)
