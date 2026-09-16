@@ -22,8 +22,6 @@ Feel free to reach out at [zhangziqing@sjtu.edu.cn](mailto:zhangziqing@sjtu.edu.
 
 # Publications
 
-[Google Scholar](https://scholar.google.com/citations?user=lu17sj4AAAAJ)
-
 ### InfVSR: Toward Consistency-Driven Streaming Generative Video Super-Resolution
 
 **Ziqing Zhang**, Kai Liu, Zheng Chen, Xi Li, Yucong Chen, Bingnan Duan, Linghe Kong, Yulun Zhang<br>
