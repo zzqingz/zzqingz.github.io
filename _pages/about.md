@@ -12,7 +12,7 @@ redirect_from:
 
 # About Me
 
-I am **Ziqing Zhang (张梓晴)**, an undergraduate student in Computer Science and Technology (Yongqiang Class) at the [School of Computer Science](https://www.cs.sjtu.edu.cn/), [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/).
+I am **Ziqing Zhang (张梓晴)**, an undergraduate student in Computer Science and Technology (Yongqiang Class) at the [School of Computer Science](https://www.cs.sjtu.edu.cn/), [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/). I am advised by Prof. [Yulun Zhang](https://yulunzhang.com/).
 
 My research interests lie in **computer vision**, particularly image and video restoration, visual quality assessment, and vision-language models.
 
@@ -77,7 +77,10 @@ Kai Liu, **Ziqing Zhang**, Wenbo Li, Renjing Pei, Fenglong Song, Xiaohong Liu, L
 
 # Academic Service
 
-- **Reviewer:** CVPR 2026, ECCV 2026, NeurIPS 2026
+- **Reviewer:** CVPR 2026, ECCV 2026, NeurIPS 2026, AAAI 2027
+- **Co-organizer:** NTIRE 2026 Challenge on Image Super-Resolution (×4), CVPR Workshops
+- **Co-organizer:** NTIRE 2026 Challenge on Remote Sensing Infrared Image Super-Resolution, CVPR Workshops
+- **Teaching Assistant:** Introduction to Computer Science (CS0502-04), Shanghai Jiao Tong University, Fall 2026
 
 <span class="anchor" id="contact"></span>
 
