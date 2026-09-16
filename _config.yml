@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Ziqing Zhang"
-description              : "Ziqing Zhang | Shanghai Jiao Tong University"
+description              : "Computer Vision"
 repository               : "zzqingz/zzqingz.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Ziqing Zhang"
   avatar           : "images/github-avatar.jpg"
-  bio              : "Shanghai Jiao Tong University"
+  bio              : "Undergraduate at Shanghai Jiao Tong University"
   location         : "Shanghai, China"
   employer         :
   pubmed           : 
