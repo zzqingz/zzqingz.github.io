@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Ziqing Zhang"
-  avatar           : "images/github-avatar.jpg"
+  avatar           : "https://avatars.githubusercontent.com/u/165803582?s=460&v=4"
   bio              : "Undergraduate at Shanghai Jiao Tong University"
   location         : "Shanghai, China"
   employer         :
