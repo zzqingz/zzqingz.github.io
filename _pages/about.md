@@ -60,10 +60,10 @@ Kai Liu<sup>*</sup>, **Ziqing Zhang**<sup>*</sup>, Wenbo Li, Renjing Pei, Fenglo
 
 # 🎓 Education
 
-- **Shanghai Jiao Tong University**, Shanghai, China<br>
+- **[Shanghai Jiao Tong University](https://www.sjtu.edu.cn/)**, Shanghai, China<br>
   Sep. 2023 – Present · Undergraduate, Computer Science and Technology (Yongqiang Class)<br>
   Core-course weighted average: **92.29/100** · GPA: **4.01/4.3** · Rank: **6/112**
-- **Shanghai High School**, Shanghai, China<br>
+- **[Shanghai High School](https://www.shs.cn/)**, Shanghai, China<br>
   Sep. 2020 – Jun. 2023
 
 <span class="anchor" id="awards"></span>
