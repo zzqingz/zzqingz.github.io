@@ -163,3 +163,16 @@ h1:before, .anchor:before {
         .publication-details { padding-left: 0; }
     }
 }
+
+.publication-code {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    vertical-align: baseline;
+    .repo-stars {
+        display: inline-flex;
+        align-self: center;
+        text-decoration: none;
+        img { display: block; height: 18px; width: auto; margin: 0; }
+    }
+}
