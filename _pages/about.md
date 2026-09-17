@@ -69,7 +69,7 @@ Kai Liu<sup>*</sup>, **Ziqing Zhang**<sup>*</sup>, Wenbo Li, Renjing Pei, Fenglo
 # 🏆 Honors and Awards
 
 - **National Scholarship**, 2025 (Top 1%)
-- **Meritorious Winner**, Mathematical Contest in Modeling (MCM), 2025 (Top 7%)
+- **Meritorious Winner**, Mathematical Contest in Modeling (MCM), 2025
 - **Huatai Securities Science and Technology Scholarship**, 2024 (Top 10%)
 - **Outstanding Undergraduate Scholarship**, Shanghai Jiao Tong University, 2024 and 2025 (Top 10%)
 
