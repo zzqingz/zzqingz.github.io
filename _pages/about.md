@@ -16,7 +16,7 @@ I am **Ziqing Zhang (张梓晴)**, a fourth-year undergraduate in Computer Scien
 
 My research centers on **visual intelligence**, with a focus on visual generation and restoration, vision-language models (VLMs), and multimodal reasoning.
 
-I warmly welcome collaborations and research discussions! I'd love to hear from you—feel free to reach out via [email](mailto:zhangziqing@sjtu.edu.cn) or [WeChat](/images/wechat.jpg). 💙
+I warmly welcome collaborations and research discussions! Feel free to reach out via [email](mailto:zhangziqing@sjtu.edu.cn) or [WeChat](/images/wechat.jpg). 💙
 
 <span class="anchor" id="publications"></span>
 
