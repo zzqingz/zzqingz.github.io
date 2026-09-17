@@ -107,3 +107,26 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+.publications-heading {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    &:before { display: none; }
+}
+.page__content a.scholar-badge {
+    display: inline-flex;
+    overflow: hidden;
+    border-radius: 4px;
+    color: #fff;
+    font: 600 12px/22px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    text-decoration: none;
+    white-space: nowrap;
+    vertical-align: middle;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.08);
+    &:hover { text-decoration: none; opacity: 0.9; }
+    &:focus-visible { outline: 2px solid #1558b0; outline-offset: 3px; }
+}
+.scholar-badge-label { background: #555; padding: 0 7px; }
+.scholar-badge-count { background: #2867b2; padding: 0 7px; }
