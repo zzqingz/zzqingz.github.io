@@ -130,7 +130,7 @@ h1:before, .anchor:before {
 .publication-entry {
     display: grid;
     grid-template-columns: 68px minmax(0, 1fr);
-    column-gap: 12px;
+    column-gap: 30px;
     margin: 1.25rem 0 1.75rem;
     color: #000;
     .publication-venue { padding-top: 0.15rem; }
