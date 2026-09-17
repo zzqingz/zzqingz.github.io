@@ -201,7 +201,7 @@ a { color: var(--site-link); }
     background: var(--site-bg);
     border-color: var(--site-border);
 }
-.masthead__inner-wrap { display: flex; align-items: center; gap: 12px; }
+.masthead__inner-wrap { display: flex; align-items: center; padding-right: 60px; }
 .masthead__menu { flex: 1; min-width: 0; }
 .greedy-nav { min-width: 0; }
 .greedy-nav a { color: var(--site-muted); }
@@ -211,7 +211,10 @@ a { color: var(--site-link); }
 .greedy-nav .hidden-links:after, .author__urls:after { border-color: var(--site-bg) transparent; }
 .greedy-nav .hidden-links:before, .author__urls:before { border-color: var(--site-border) transparent; }
 .theme-toggle {
-    flex: 0 0 36px;
+    position: fixed;
+    top: 8px;
+    right: 12px;
+    z-index: 100;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -220,7 +223,7 @@ a { color: var(--site-link); }
     padding: 7px;
     border: 0;
     border-radius: 50%;
-    background: transparent;
+    background: var(--site-bg);
     color: var(--site-text);
     cursor: pointer;
     &:hover { background: var(--site-hover); }
