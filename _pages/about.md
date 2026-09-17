@@ -20,7 +20,7 @@ Feel free to reach out at [zhangziqing@sjtu.edu.cn](mailto:zhangziqing@sjtu.edu.
 
 <span class="anchor" id="publications"></span>
 
-<h1 class="publications-heading"><span>📝 Publications</span><a class="scholar-badge" href="{{ site.author.googlescholar }}" aria-label="Google Scholar: {{ site.data.scholar.citations }} citations"><span class="scholar-badge-label"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Citations</span><span class="scholar-badge-count">{{ site.data.scholar.citations }}</span></a></h1>
+<h1 class="publications-heading"><span>📝 Publications</span><a class="scholar-badge" href="{{ site.author.googlescholar }}" aria-label="Google Scholar: {{ site.data.scholar.citations }} citations"><img src="https://img.shields.io/badge/Citations-{{ site.data.scholar.citations }}-5383ec?logo=Google%20Scholar&amp;labelColor=ffffff&amp;style=plastic" alt="Google Scholar citations: {{ site.data.scholar.citations }}" height="18"></a></h1>
 
 ### InfVSR: Toward Consistency-Driven Streaming Generative Video Super-Resolution
 
