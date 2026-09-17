@@ -32,7 +32,6 @@
       {% if author.email %}
         <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
       {% endif %}
-      <li><a href="{{ "/images/wechat.jpg" | relative_url }}" title="WeChat QR code"><i class="fab fa-fw fa-weixin" aria-hidden="true"></i> WeChat</a></li>
       {% if author.keybase %}
         <li><a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i> Keybase</a></li>
       {% endif %}
@@ -120,6 +119,7 @@
       {% if author.wikipedia %}
         <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i> Wikipedia</a></li>
 {% endif %}
+      <li><a href="{{ "/images/wechat.jpg" | relative_url }}" title="WeChat QR code"><i class="fab fa-fw fa-weixin" aria-hidden="true"></i> WeChat</a></li>
     </ul>
       <div class="author__urls_sm">
       {% if author.uri %}
@@ -128,7 +128,6 @@
       {% if author.email %}
         <a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i></a>
       {% endif %}
-      <a href="{{ "/images/wechat.jpg" | relative_url }}" aria-label="WeChat QR code" title="WeChat"><i class="fab fa-fw fa-weixin" aria-hidden="true"></i></a>
       {% if author.keybase %}
         <a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i></a>
       {% endif %}
@@ -216,6 +215,7 @@
       {% if author.wikipedia %}
         <a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i></a>
       {% endif %}
+      <a href="{{ "/images/wechat.jpg" | relative_url }}" aria-label="WeChat QR code" title="WeChat"><i class="fab fa-fw fa-weixin" aria-hidden="true"></i></a>
     </div>
   </div>
 </div>

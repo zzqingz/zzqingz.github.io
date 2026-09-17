@@ -237,3 +237,5 @@ a { color: var(--site-link); }
     .author__urls .fa, .author__urls .fas, .author__urls .fab, .author__urls .ai { color: var(--site-text); }
     .page__footer { background: var(--site-bg); color: var(--site-muted); border-color: var(--site-border); }
 }
+
+.author__avatar img { border-color: var(--site-border); }

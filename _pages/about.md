@@ -105,4 +105,4 @@ Feel free to reach out at [zhangziqing@sjtu.edu.cn](mailto:zhangziqing@sjtu.edu.
 
 # 📫 Contact
 
-[Email](mailto:zhangziqing@sjtu.edu.cn) · [WeChat](/images/wechat.jpg) · [Google Scholar](https://scholar.google.com/citations?user=lu17sj4AAAAJ) · [GitHub](https://github.com/zzqingz)
+[Email](mailto:zhangziqing@sjtu.edu.cn) · [Google Scholar](https://scholar.google.com/citations?user=lu17sj4AAAAJ) · [GitHub](https://github.com/zzqingz) · [WeChat](/images/wechat.jpg)
