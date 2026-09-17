@@ -183,7 +183,7 @@ h1:before, .anchor:before {
     --site-text: #494e52;
     --site-muted: #7a8288;
     --site-link: #224b8d;
-    --site-border: #f2f3f3;
+    --site-border: #c5cbd2;
     --site-hover: #eef0f2;
 }
 :root[data-theme="dark"] {
@@ -192,7 +192,7 @@ h1:before, .anchor:before {
     --site-text: #d4d7dc;
     --site-muted: #b0b6bf;
     --site-link: #91b9f5;
-    --site-border: #343840;
+    --site-border: #626b78;
     --site-hover: #292e37;
 }
 html, body { background: var(--site-bg); color: var(--site-text); }
