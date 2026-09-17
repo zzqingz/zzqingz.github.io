@@ -22,8 +22,6 @@ Feel free to reach out at [zhangziqing@sjtu.edu.cn](mailto:zhangziqing@sjtu.edu.
 
 # 📝 Publications
 
-<sup>*</sup> Equal contribution · <sup>†</sup> Corresponding author
-
 ### InfVSR: Toward Consistency-Driven Streaming Generative Video Super-Resolution
 
 **Ziqing Zhang**<sup>*</sup>, Kai Liu<sup>*</sup>, Zheng Chen, Xi Li, Yucong Chen, Bingnan Duan, Linghe Kong<sup>†</sup>, Yulun Zhang<sup>†</sup><br>
