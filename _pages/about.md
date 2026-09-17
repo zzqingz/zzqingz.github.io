@@ -12,11 +12,11 @@ redirect_from:
 
 # 👋 About Me
 
-I am **Ziqing Zhang (张梓晴)**, a fourth-year undergraduate student in Computer Science and Technology (Yongqiang Class) at the [School of Computer Science](https://www.cs.sjtu.edu.cn/), [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/), advised by Prof. [Yulun Zhang](https://yulunzhang.com/). I will soon begin my Ph.D. studies.
+I am **Ziqing Zhang (张梓晴)**, a final-year undergraduate in Computer Science and Technology (Yongqiang Class) at [Shanghai Jiao Tong University (SJTU)](https://www.sjtu.edu.cn/). I am advised by Prof. [Yulun Zhang](https://yulunzhang.com/) in the [School of Computer Science](https://www.cs.sjtu.edu.cn/) and will continue my research as a Ph.D. student after graduation.
 
-My research interests lie in **computer vision**, particularly image and video restoration, visual quality assessment, and vision-language models.
+My research focuses on **computer vision**, including image and video restoration, image quality assessment, and vision-language models.
 
-I welcome opportunities for research collaboration and discussion. Feel free to reach out at [zhangziqing@sjtu.edu.cn](mailto:zhangziqing@sjtu.edu.cn) or via [WeChat](/images/wechat.jpg).
+I am always happy to discuss research and explore potential collaborations. Please feel free to contact me via [email](mailto:zhangziqing@sjtu.edu.cn) or [WeChat](/images/wechat.jpg).
 
 <span class="anchor" id="publications"></span>
 
