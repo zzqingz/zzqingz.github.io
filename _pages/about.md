@@ -22,37 +22,57 @@ Feel free to reach out at [zhangziqing@sjtu.edu.cn](mailto:zhangziqing@sjtu.edu.
 
 <h1 class="publications-heading"><span>📝 Publications</span><a class="scholar-badge" href="{{ site.author.googlescholar }}" aria-label="Google Scholar: {{ site.data.scholar.citations }} citations"><img src="https://img.shields.io/badge/Citations-{{ site.data.scholar.citations }}-5383ec?logo=Google%20Scholar&amp;labelColor=ffffff&amp;style=plastic" alt="Google Scholar citations: {{ site.data.scholar.citations }}" height="18"></a></h1>
 
-<h3 class="publication-title"><span class="venue-badge">ICML</span><span>InfVSR: Toward Consistency-Driven Streaming Generative Video Super-Resolution</span></h3>
+<article class="publication-entry" markdown="0">
+<div class="publication-venue"><span class="venue-badge">ICML</span></div>
+<div class="publication-details">
+<h3>InfVSR: Toward Consistency-Driven Streaming Generative Video Super-Resolution</h3>
+<p><strong>Ziqing Zhang</strong><sup>&#42;</sup>, Kai Liu<sup>&#42;</sup>, Zheng Chen, Xi Li, Yucong Chen, Bingnan Duan, Linghe Kong<sup>†</sup>, Yulun Zhang<sup>†</sup><br>
+<strong>ICML 2026</strong><br>
+<a href="https://arxiv.org/abs/2510.00948">Paper</a> · <a href="https://github.com/Kai-Liu001/InfVSR">Code</a></p>
+</div>
+</article>
 
-**Ziqing Zhang**<sup>*</sup>, Kai Liu<sup>*</sup>, Zheng Chen, Xi Li, Yucong Chen, Bingnan Duan, Linghe Kong<sup>†</sup>, Yulun Zhang<sup>†</sup><br>
-**ICML 2026**<br>
-[Paper](https://arxiv.org/abs/2510.00948) · [Code](https://github.com/Kai-Liu001/InfVSR)
+<article class="publication-entry" markdown="0">
+<div class="publication-venue"><span class="venue-badge">CVPRW</span></div>
+<div class="publication-details">
+<h3>The Fourth Challenge on Image Super-Resolution (×4) at NTIRE 2026: Benchmark Results and Method Overview</h3>
+<p>Zheng Chen, Kai Liu, Jingkai Wang, Xianglong Yan, Jianze Li, <strong>Ziqing Zhang</strong>, Jue Gong, Jiatong Li, Lei Sun, Xiaoyang Liu, Radu Timofte, Yulun Zhang<sup>†</sup>, et al.<br>
+<strong>CVPR Workshops (NTIRE), 2026</strong><br>
+<a href="https://arxiv.org/abs/2604.14558">Paper</a></p>
+</div>
+</article>
 
-<h3 class="publication-title"><span class="venue-badge">CVPRW</span><span>The Fourth Challenge on Image Super-Resolution (×4) at NTIRE 2026: Benchmark Results and Method Overview</span></h3>
-
-Zheng Chen, Kai Liu, Jingkai Wang, Xianglong Yan, Jianze Li, **Ziqing Zhang**, Jue Gong, Jiatong Li, Lei Sun, Xiaoyang Liu, Radu Timofte, Yulun Zhang<sup>†</sup>, et al.<br>
-**CVPR Workshops (NTIRE), 2026**<br>
-[Paper](https://arxiv.org/abs/2604.14558)
-
-<h3 class="publication-title"><span class="venue-badge">CVPRW</span><span>The First Challenge on Remote Sensing Infrared Image Super-Resolution at NTIRE 2026: Benchmark Results and Method Overview</span></h3>
-
-Kai Liu, Haoyang Yue, Zeli Lin, Zheng Chen, Jingkai Wang, Jue Gong, Jiatong Li, Xianglong Yan, Libo Zhu, Jianze Li, **Ziqing Zhang**, Zihan Zhou, Xiaoyang Liu, Radu Timofte, Yulun Zhang<sup>†</sup>, et al.<br>
-**CVPR Workshops (NTIRE), 2026**<br>
-[Paper](https://arxiv.org/abs/2604.21312)
+<article class="publication-entry" markdown="0">
+<div class="publication-venue"><span class="venue-badge">CVPRW</span></div>
+<div class="publication-details">
+<h3>The First Challenge on Remote Sensing Infrared Image Super-Resolution at NTIRE 2026: Benchmark Results and Method Overview</h3>
+<p>Kai Liu, Haoyang Yue, Zeli Lin, Zheng Chen, Jingkai Wang, Jue Gong, Jiatong Li, Xianglong Yan, Libo Zhu, Jianze Li, <strong>Ziqing Zhang</strong>, Zihan Zhou, Xiaoyang Liu, Radu Timofte, Yulun Zhang<sup>†</sup>, et al.<br>
+<strong>CVPR Workshops (NTIRE), 2026</strong><br>
+<a href="https://arxiv.org/abs/2604.21312">Paper</a></p>
+</div>
+</article>
 
 ## Preprints
 
-<h3 class="publication-title"><span class="venue-badge">arXiv</span><span>DRScaffold: Boosting Dense-Scene Reasoning in Lightweight Vision Language Models</span></h3>
+<article class="publication-entry" markdown="0">
+<div class="publication-venue"><span class="venue-badge venue-badge--preprint">arXiv</span></div>
+<div class="publication-details">
+<h3>DRScaffold: Boosting Dense-Scene Reasoning in Lightweight Vision Language Models</h3>
+<p>Xinrui Shi<sup>&#42;</sup>, Kai Liu<sup>&#42;</sup>, <strong>Ziqing Zhang</strong>, Jianze Li, Anqi Li, Yulun Zhang<sup>†</sup><br>
+<strong>arXiv, 2026</strong><br>
+<a href="https://arxiv.org/abs/2605.26038">Paper</a></p>
+</div>
+</article>
 
-Xinrui Shi<sup>*</sup>, Kai Liu<sup>*</sup>, **Ziqing Zhang**, Jianze Li, Anqi Li, Yulun Zhang<sup>†</sup><br>
-**arXiv, 2026**<br>
-[Paper](https://arxiv.org/abs/2605.26038)
-
-<h3 class="publication-title"><span class="venue-badge">arXiv</span><span>Dog-IQA: Standard-guided Zero-shot MLLM for Mix-grained Image Quality Assessment</span></h3>
-
-Kai Liu<sup>*</sup>, **Ziqing Zhang**<sup>*</sup>, Wenbo Li, Renjing Pei, Fenglong Song, Xiaohong Liu, Linghe Kong<sup>†</sup>, Yulun Zhang<sup>†</sup><br>
-**arXiv, 2024**<br>
-[Paper](https://arxiv.org/abs/2410.02505)
+<article class="publication-entry" markdown="0">
+<div class="publication-venue"><span class="venue-badge venue-badge--preprint">arXiv</span></div>
+<div class="publication-details">
+<h3>Dog-IQA: Standard-guided Zero-shot MLLM for Mix-grained Image Quality Assessment</h3>
+<p>Kai Liu<sup>&#42;</sup>, <strong>Ziqing Zhang</strong><sup>&#42;</sup>, Wenbo Li, Renjing Pei, Fenglong Song, Xiaohong Liu, Linghe Kong<sup>†</sup>, Yulun Zhang<sup>†</sup><br>
+<strong>arXiv, 2024</strong><br>
+<a href="https://arxiv.org/abs/2410.02505">Paper</a></p>
+</div>
+</article>
 
 <span class="anchor" id="education"></span>
 
