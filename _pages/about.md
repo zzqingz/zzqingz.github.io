@@ -22,19 +22,19 @@ Feel free to reach out at [zhangziqing@sjtu.edu.cn](mailto:zhangziqing@sjtu.edu.
 
 <h1 class="publications-heading"><span>📝 Publications</span><a class="scholar-badge" href="{{ site.author.googlescholar }}" aria-label="Google Scholar: {{ site.data.scholar.citations }} citations"><img src="https://img.shields.io/badge/Citations-{{ site.data.scholar.citations }}-5383ec?logo=Google%20Scholar&amp;labelColor=ffffff&amp;style=plastic" alt="Google Scholar citations: {{ site.data.scholar.citations }}" height="18"></a></h1>
 
-### InfVSR: Toward Consistency-Driven Streaming Generative Video Super-Resolution
+<h3 class="publication-title"><span class="venue-badge">ICML</span><span>InfVSR: Toward Consistency-Driven Streaming Generative Video Super-Resolution</span></h3>
 
 **Ziqing Zhang**<sup>*</sup>, Kai Liu<sup>*</sup>, Zheng Chen, Xi Li, Yucong Chen, Bingnan Duan, Linghe Kong<sup>†</sup>, Yulun Zhang<sup>†</sup><br>
 **ICML 2026**<br>
 [Paper](https://arxiv.org/abs/2510.00948) · [Code](https://github.com/Kai-Liu001/InfVSR)
 
-### The Fourth Challenge on Image Super-Resolution (×4) at NTIRE 2026: Benchmark Results and Method Overview
+<h3 class="publication-title"><span class="venue-badge">CVPRW</span><span>The Fourth Challenge on Image Super-Resolution (×4) at NTIRE 2026: Benchmark Results and Method Overview</span></h3>
 
 Zheng Chen, Kai Liu, Jingkai Wang, Xianglong Yan, Jianze Li, **Ziqing Zhang**, Jue Gong, Jiatong Li, Lei Sun, Xiaoyang Liu, Radu Timofte, Yulun Zhang<sup>†</sup>, et al.<br>
 **CVPR Workshops (NTIRE), 2026**<br>
 [Paper](https://arxiv.org/abs/2604.14558)
 
-### The First Challenge on Remote Sensing Infrared Image Super-Resolution at NTIRE 2026: Benchmark Results and Method Overview
+<h3 class="publication-title"><span class="venue-badge">CVPRW</span><span>The First Challenge on Remote Sensing Infrared Image Super-Resolution at NTIRE 2026: Benchmark Results and Method Overview</span></h3>
 
 Kai Liu, Haoyang Yue, Zeli Lin, Zheng Chen, Jingkai Wang, Jue Gong, Jiatong Li, Xianglong Yan, Libo Zhu, Jianze Li, **Ziqing Zhang**, Zihan Zhou, Xiaoyang Liu, Radu Timofte, Yulun Zhang<sup>†</sup>, et al.<br>
 **CVPR Workshops (NTIRE), 2026**<br>
@@ -42,13 +42,13 @@ Kai Liu, Haoyang Yue, Zeli Lin, Zheng Chen, Jingkai Wang, Jue Gong, Jiatong Li, 
 
 ## Preprints
 
-### DRScaffold: Boosting Dense-Scene Reasoning in Lightweight Vision Language Models
+<h3 class="publication-title"><span class="venue-badge">arXiv</span><span>DRScaffold: Boosting Dense-Scene Reasoning in Lightweight Vision Language Models</span></h3>
 
 Xinrui Shi<sup>*</sup>, Kai Liu<sup>*</sup>, **Ziqing Zhang**, Jianze Li, Anqi Li, Yulun Zhang<sup>†</sup><br>
 **arXiv, 2026**<br>
 [Paper](https://arxiv.org/abs/2605.26038)
 
-### Dog-IQA: Standard-guided Zero-shot MLLM for Mix-grained Image Quality Assessment
+<h3 class="publication-title"><span class="venue-badge">arXiv</span><span>Dog-IQA: Standard-guided Zero-shot MLLM for Mix-grained Image Quality Assessment</span></h3>
 
 Kai Liu<sup>*</sup>, **Ziqing Zhang**<sup>*</sup>, Wenbo Li, Renjing Pei, Fenglong Song, Xiaohong Liu, Linghe Kong<sup>†</sup>, Yulun Zhang<sup>†</sup><br>
 **arXiv, 2024**<br>
