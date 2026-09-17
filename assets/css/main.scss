@@ -129,13 +129,16 @@ h1:before, .anchor:before {
 
 .publication-entry {
     display: grid;
-    grid-template-columns: 84px minmax(0, 1fr);
+    grid-template-columns: 68px minmax(0, 1fr);
+    column-gap: 8px;
     margin: 1.25rem 0 1.75rem;
     color: #000;
     .publication-venue { padding-top: 0.15rem; }
     .venue-badge {
         display: inline-block;
-        padding: 3px 16px;
+        box-sizing: border-box;
+        width: 68px;
+        padding: 3px 8px;
         border-radius: 2px;
         background-color: #00369f;
         color: #fff;
@@ -148,7 +151,7 @@ h1:before, .anchor:before {
     .venue-badge--preprint { background-color: #00ab37; }
     .publication-details {
         min-width: 0;
-        padding-left: 15px;
+        padding-left: 0;
         h3 { margin: 0; font-size: 1em; line-height: 1.5; font-weight: 600; }
         p { margin: 0; line-height: 1.5; }
     }
