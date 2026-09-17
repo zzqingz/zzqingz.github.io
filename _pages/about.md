@@ -12,7 +12,7 @@ redirect_from:
 
 # 👋 About Me
 
-I am **Ziqing Zhang (张梓晴)**, a final-year undergraduate in Computer Science and Technology (Yongqiang Class) at [Shanghai Jiao Tong University (SJTU)](https://www.sjtu.edu.cn/). I am advised by Prof. [Yulun Zhang](https://yulunzhang.com/) in the [School of Computer Science](https://www.cs.sjtu.edu.cn/) and will continue my research as a Ph.D. student after graduation.
+I am **Ziqing Zhang (张梓晴)**, a fourth-year undergraduate in Computer Science and Technology (Yongqiang Class) at the [School of Computer Science](https://www.cs.sjtu.edu.cn/), [Shanghai Jiao Tong University (SJTU)](https://www.sjtu.edu.cn/). I am an incoming Ph.D. student advised by Prof. [Yulun Zhang](https://yulunzhang.com/).
 
 My research centers on **visual intelligence**, with a focus on visual generation and restoration, vision-language models (VLMs), and multimodal reasoning.
 
