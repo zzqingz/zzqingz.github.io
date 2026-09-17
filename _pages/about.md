@@ -14,7 +14,7 @@ redirect_from:
 
 I am **Ziqing Zhang (张梓晴)**, a final-year undergraduate in Computer Science and Technology (Yongqiang Class) at [Shanghai Jiao Tong University (SJTU)](https://www.sjtu.edu.cn/). I am advised by Prof. [Yulun Zhang](https://yulunzhang.com/) in the [School of Computer Science](https://www.cs.sjtu.edu.cn/) and will continue my research as a Ph.D. student after graduation.
 
-My research focuses on **computer vision**, including image and video restoration, image quality assessment, and vision-language models.
+My research centers on **visual intelligence**, with a focus on visual generation and restoration, vision-language models (VLMs), and multimodal reasoning. I am particularly interested in how models perceive, reconstruct, and reason about visual content.
 
 I am always happy to discuss research and explore potential collaborations. Please feel free to contact me via [email](mailto:zhangziqing@sjtu.edu.cn) or [WeChat](/images/wechat.jpg).
 
