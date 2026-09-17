@@ -80,7 +80,7 @@ Kai Liu<sup>*</sup>, **Ziqing Zhang**<sup>*</sup>, Wenbo Li, Renjing Pei, Fenglo
 # 🤝 Academic Service
 
 - **Reviewer:** CVPR 2026, ECCV 2026, NeurIPS 2026, AAAI 2027
-- **Co-organizer:** NTIRE 2026 Image SR (×4) & Remote Sensing Infrared SR Challenges (CVPRW)
+- **Workshop Co-organizer:** NTIRE 2026: Image SR & Infrared SR (CVPRW)
 - **Teaching Assistant:** Introduction to Computer Science (CS0502-04), Shanghai Jiao Tong University, Fall 2026. Instructor: Prof. [Yulun Zhang](https://yulunzhang.com/).
 
 <span class="anchor" id="contact"></span>
