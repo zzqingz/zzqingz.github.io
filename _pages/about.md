@@ -12,7 +12,7 @@ redirect_from:
 
 # 👋 About Me
 
-I am **Ziqing Zhang (张梓晴)**, a fourth-year undergraduate in Computer Science and Technology (Yongqiang Class) at the [School of Computer Science](https://www.cs.sjtu.edu.cn/), [Shanghai Jiao Tong University (SJTU)](https://www.sjtu.edu.cn/). I currently conduct research in Prof. [Yulun Zhang](https://yulunzhang.com/)'s group and will be joining as a PhD student.
+I am **Ziqing Zhang (张梓晴)**, a fourth-year undergraduate in Computer Science and Technology at the [School of Computer Science](https://www.cs.sjtu.edu.cn/), [Shanghai Jiao Tong University (SJTU)](https://www.sjtu.edu.cn/). I'm currently conducting research in Prof. [Yulun Zhang](https://yulunzhang.com/)'s group and will be joining as a PhD student.
 
 My research centers on **visual intelligence**, with a focus on visual generation/restoration, VLM/MLLMs, and multimodal reasoning.
 
@@ -79,7 +79,7 @@ I warmly welcome collaborations and research discussions. Please feel free to re
 # 🎓 Education
 
 - **[Shanghai Jiao Tong University](https://www.sjtu.edu.cn/)**, Shanghai, China<br>
-  Sep. 2023 – Present · Undergraduate, Computer Science and Technology (Yongqiang Class)<br>
+  Sep. 2023 – Present · Undergraduate, Computer Science and Technology<br>
   GPA: **4.01/4.3** · Rank: **6/112**
 - **[Shanghai High School](https://www.shs.cn/)**, Shanghai, China<br>
   Sep. 2020 – Jun. 2023
