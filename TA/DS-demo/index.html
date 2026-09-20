@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>数据结构 · 看见每一步</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <button id="questionNavButton" class="question-nav-button" aria-haspopup="dialog" aria-controls="questionNav" aria-expanded="false"><span aria-hidden="true">☰</span><span>目录</span></button>
+  <header class="topbar">
+    <a class="brand" href="index.html"><span class="brand-icon">▥</span><span>数据结构<span class="brand-sub">看见每一步</span></span></a>
+    <div class="top-actions"><span class="course">计算机科学导论 · 助教演示</span><button id="menuButton" class="quiet" aria-haspopup="dialog">目录 / 设置</button><button id="fullButton" class="quiet" title="全屏演示">全屏 ↗</button></div>
+  </header>
+  <main>
+    <section class="heading"><div><div class="eyebrow" id="eyebrow"></div><h1 id="title"></h1><p id="subtitle"></p></div><div class="chapter-number" id="chapterNumber"></div></section>
+    <section id="examPanel" class="exam-panel" hidden aria-label="试卷原题"><div class="exam-top"><strong id="examLabel">试卷原题</strong><span id="examSource"></span><button id="zoomQuestion" class="quiet">放大原题 ↗</button></div><button id="questionImageButton" class="question-image-button" aria-label="放大原题截图"><img id="questionImage" alt=""></button></section>
+    <div class="workspace">
+      <section class="visual-panel" aria-label="动画演示区">
+        <div class="panel-top"><span id="sceneLabel"></span><div id="hanoiTools" hidden><label for="diskCount">圆盘数</label> <select id="diskCount"><option value="3">3 盘</option><option value="4">4 盘</option><option value="5" selected>5 盘</option><option value="6">6 盘</option></select></div><button id="snapshotButton" class="quiet" hidden>查看 8 轮建堆结果 ↗</button><span id="playStatus" class="status">等待讲解</span></div>
+        <div id="stage"></div>
+        <div id="snapshots" class="snapshots" hidden></div>
+        <div id="caption" class="caption" aria-live="polite"></div>
+      </section>
+      <aside class="notes"><div class="note-label">要点解析</div><h2 id="noteTitle"></h2><p id="noteText"></p><div id="question" class="question"></div><div id="takeaway" class="takeaway"></div><div class="source" id="source"></div></aside>
+    </div>
+    <section class="timeline"><span id="stepCount"></span><div id="stepDots" class="step-dots"></div><span id="nextHint"></span></section>
+  </main>
+  <footer class="controls"><div class="control-left"><button id="prevButton" class="secondary">← 上一步</button><button id="replayButton" class="quiet">↻ 重播本段</button></div><div class="keyboard-hint">按 <kbd>→</kbd> 或 <kbd>空格</kbd> 继续 · <kbd>←</kbd> 回退</div><div class="control-right"><button id="pauseButton" class="secondary" hidden>暂停</button><button id="nextButton" class="primary">下一步 <span>→</span></button></div></footer>
+  <dialog id="questionNav" class="question-drawer" aria-labelledby="questionNavTitle"><div class="dialog-heading"><h2 id="questionNavTitle">目录</h2><button id="closeQuestionNav" class="quiet" aria-label="关闭目录">✕</button></div><p class="muted">选择内容，从开头开始。</p><nav id="questionNavList" aria-label="目录跳转"></nav></dialog>
+  <dialog id="menu"><div class="dialog-heading"><h2>演示目录</h2><button id="closeMenu" class="quiet" aria-label="关闭目录">✕</button></div><nav id="chapterList"></nav><div class="settings"><label for="speed">动画速度</label><select id="speed"><option value="0.65">慢速 · 0.65×</option><option value="1" selected>标准 · 1×</option><option value="1.7">快速 · 1.7×</option><option value="3">速览 · 3×</option></select></div><details><summary>课件与参考</summary><p>课件：Slide04-DataStructure；助教补充 v4。</p><p><a href="https://www.cs.usfca.edu/~galles/visualization/Algorithms.html" target="_blank" rel="noopener">USF 数据结构可视化</a> · <a href="https://visualgo.net/en/heap" target="_blank" rel="noopener">VisuAlgo 二叉堆</a> · <a href="https://www.cs.cmu.edu/~cburch/survey/recurse/hanoiex.html" target="_blank" rel="noopener">CMU 汉诺塔调用栈</a> · <a href="https://introcs.cs.princeton.edu/java/23recursion/AnimatedHanoi.java.html" target="_blank" rel="noopener">Princeton 汉诺塔动画</a></p></details></dialog>
+  <dialog id="imageDialog" class="wide-dialog"><div class="dialog-heading"><h2 id="imageDialogTitle">试卷原题</h2><button id="closeImage" class="quiet" aria-label="关闭原题">✕</button></div><img id="largeQuestion" alt=""><p id="largeSource" class="large-source"></p></dialog>
+  <dialog id="snapshotDialog" class="wide-dialog"><div class="dialog-heading"><h2>二叉堆 · 每次插入后的结果</h2><button id="closeSnapshots" class="quiet" aria-label="关闭建堆结果">✕</button></div><div id="snapshotGallery"></div></dialog>
+  <script src="demo.js"></script>
+</body>
+</html>
