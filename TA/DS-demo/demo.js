@@ -28,9 +28,10 @@
 
   // 02 · 栈与队列
   {
-    const s={kind:'compare',input:['A','B','C'],stack:[],queue:[],outS:[],outQ:[],phase:0,summary:false};
-    const m=chapter('compare','栈与队列 · 基本操作','栈只在栈顶进出；队列从队尾进入，从队头离开。','主课件 21–23、31–32 页',s,'先全部进入，再依次取出','A、B、C 都进入之后，谁会先出来？');
-    const f=[];
+    const s={kind:'compare',input:['A','B','C'],stack:[],queue:[],outS:[],outQ:[],phase:0,summary:true};
+    const m=chapter('compare','栈与队列 · 基本操作','栈只在栈顶进出；队列从队尾进入，从队头离开。','主课件 21–23、31–32 页',s,'先比较操作位置与顺序规则','栈和队列分别从哪里进入、从哪里离开？');
+    s.summary=false;
+    const f=[shot(s,'接下来用 A、B、C 演示栈与队列的进出过程。',600)];
     for(const v of ['A','B','C']){s.input.shift();s.stack.push(v);s.queue.push(v);f.push(shot(s,`${v} 进入：栈在栈顶添加；队列在队尾添加。`));}
     for(let i=0;i<3;i++){const a=s.stack.pop(),b=s.queue.shift();s.outS.push(a);s.outQ.push(b);f.push(shot(s,`本次取出：栈 → ${a}；队列 → ${b}。`));}
     segment(m,'全部进入后取出','栈后进先出，队列先进先出','盘子从上面取；打印任务按到达顺序处理。同样的输入，操作位置决定了输出。','这次栈的输出为什么恰好是输入的倒序？',f,'栈：C B A　｜　队列：A B C');
@@ -41,8 +42,7 @@
       g.push(shot(s,`${op==='push'?'入栈':'出栈'} ${v}：${op==='push'?'放到栈顶':'只取当前栈顶'}。`));
     }
     segment(m,'交替入栈与出栈','后进先出 ≠ 永远整体倒序','A 可以在 B、C 进入前先出栈；之后 C 仍比 B 先出。每一步都遵守栈顶进出。','输出 A、C、B 是否违反后进先出？',g,'整体倒序的前提：全部入栈后，再全部出栈。');
-    s.summary=true;
-    segment(m,'比较栈与队列','比较两个维度就够了','写清操作位置和顺序规则：栈在同一端进出，队列在不同端进出。','如何用“操作位置”和“先后顺序”回答这道简答题？',[shot(s,'栈：栈顶入、栈顶出，LIFO；队列：队尾入、队头出，FIFO。')],'先区分操作位置，再判断先后顺序。');
+
   }
 
   function stackTrace(target) {
@@ -74,19 +74,17 @@
   // 04 · 容量峰值
   {
     const init=cap=>({kind:'capacity',input:[...'abcdefg'],stack:[],queue:[],output:[],cap,peak:0,blocked:false,summary:false});
-    let s=init(2);
+    const s=init(3);
     const m=chapter('capacity','栈与队列 · 最小栈容量','出栈后立即入队；出队顺序要求 b d c f e a g。栈至少需要几格？','主课件 22–23、31 页',s,'7 个元素，不一定要 7 格','要输出 d 的那一刻，哪些元素还不能出栈？');
     function push(v,f){if(s.input.shift()!==v)throw Error('容量题输入顺序错误');s.stack.push(v);s.peak=Math.max(s.peak,s.stack.length);f.push(shot(s,`入栈 ${v}；当前占用 ${s.stack.length}，历史峰值 ${s.peak}。`,650));}
     function pop(f){const v=s.stack.pop();s.queue.push(v);f.push(shot(s,`${v} 出栈后立即入队；队列保持进入顺序。`,650));}
-    const f=[];push('a',f);push('b',f);pop(f);push('c',f);s.blocked=true;f.push(shot(s,'还需要入栈 d，但 a、c 已占满 2 格。提前弹出它们会破坏目标顺序。'));
-    segment(m,'尝试容量 2','2 格不够：d 进不来','b 输出后，a 还得等到后面才能输出；为了取 d，c 也必须先入栈。此时 a、c、d 必须同时存在。','为什么不能先弹出 a 或 c 腾位置？',f);
-    s=init(3);const g=[shot(s,'自动重置为容量 3，按同样顺序重新执行。',500)];push('a',g);push('b',g);pop(g);push('c',g);push('d',g);
-    segment(m,'换成容量 3','峰值 3，恰好装下 a、c、d','现在 d 位于栈顶，可以按要求输出；a、c 保留在栈里等候。','三个元素中，下一个应该是谁离开？',g,'至少需要 3 格。');
+    const g=[];push('a',g);push('b',g);pop(g);push('c',g);push('d',g);
+    segment(m,'演示容量 3','峰值 3，恰好装下 a、c、d','现在 d 位于栈顶，可以按要求输出；a、c 保留在栈里等候。','三个元素中，下一个应该是谁离开？',g,'至少需要 3 格。');
     const h=[];pop(h);pop(h);push('e',h);push('f',h);pop(h);pop(h);pop(h);push('g',h);pop(h);
     while(s.queue.length){const v=s.queue.shift();s.output.push(v);h.push(shot(s,`${v} 从队头离开，FIFO 不改变顺序。`,450));}
     segment(m,'完成其余过程','3 格足以走完整个流程','每个元素出栈后立即入队。最后按 FIFO 依次出队，得到 b、d、c、f、e、a、g。','后续有没有哪一刻超过 3 格？',h,'整个过程的栈占用峰值为 3。');
     s.summary=true;
-    segment(m,'得出最小容量','2 不够，3 可行，所以最小是 3','“至少 3”由 a、c、d 同时存在说明；“3 就够”由完整可行过程说明。两部分合起来得到最小值。','只演示 3 格成功，能否单独证明它最小？',[shot(s,'选 C（3）。元素总数不等于同时占用的最大数量。')],'容量 = 需要同时保存的元素数的最大值。');
+    segment(m,'得出最小容量','占用峰值为 3，最小容量是 3','“至少 3”由 a、c、d 同时存在说明；“3 就够”由完整可行过程说明。两部分合起来得到最小值。','只演示 3 格成功，能否单独证明它最小？',[shot(s,'选 C（3）。元素总数不等于同时占用的最大数量。')],'容量 = 需要同时保存的元素数的最大值。');
   }
 
   // 05 · 多盘汉诺塔：从真实递归调用生成轨迹，不写死移动顺序。
@@ -243,7 +241,7 @@
       label(30,37,'待入栈');row(s.input,142,31,'c-',C.blue,49);badge(686,13,`容量 ${s.cap}　占用 ${s.stack.length}　峰值 ${s.peak}`,s.blocked?C.red:C.teal,225);
       label(72,92,'栈 S');stack(s.stack,138,292,s.cap,'c-',s.blocked);arrow(257,211,350,211);body+=txt(303,186,'出栈即入队',13,C.muted,'middle');
       label(388,137,'队列 Q · 队头在左');rowSlots(7,403,185,66);row(s.queue,403,185,'c-',C.teal,66);label(386,260,'出队结果');rowSlots(7,403,300,66);row(s.output,403,300,'c-',C.amber,66);
-      body+=txt(470,381,s.summary?'2 格不够 + 3 格可行 ⇒ 最小容量 3':s.blocked?'下一项 d 无法入栈：a、c 尚不能离开':'目标：b → d → c → f → e → a → g',s.summary?27:21,s.blocked?C.red:s.summary?C.teal:C.muted,'middle',s.summary?600:400);
+      body+=txt(470,381,s.summary?'必须同时保存 a、c、d ⇒ 最小容量 3':s.blocked?'下一项 d 无法入栈：a、c 尚不能离开':'目标：b → d → c → f → e → a → g',s.summary?27:21,s.blocked?C.red:s.summary?C.teal:C.muted,'middle',s.summary?600:400);
     }
     if(s.kind==='hanoi'){
       if(s.view==='recurrence'){
