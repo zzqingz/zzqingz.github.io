@@ -13,3 +13,16 @@
 @media(max-width:1000px){.exam-top{flex-wrap:wrap;gap:6px}.exam-top #examSource{order:3;width:100%;font-size:12px}.question-image-button{height:auto;max-height:none;padding:12px}.question-image-button img{height:auto}.exam-panel[data-question] .question-image-button{height:auto}#stage:has(svg[viewBox="0 0 940 340"]){aspect-ratio:940/340}#snapshotGallery{grid-template-columns:repeat(2,1fr)}#snapshotGallery svg{height:130px}}
 .question-nav-button{position:fixed;left:0;top:42%;z-index:8;display:flex;flex-direction:column;align-items:center;gap:10px;width:38px;padding:15px 8px;background:var(--teal);color:#fff;border-radius:0 10px 10px 0;box-shadow:0 3px 12px #087e8328;font-size:15px}.question-nav-button span:last-child{writing-mode:vertical-rl;letter-spacing:3px}.question-nav-button:hover{background:#05686c}.question-drawer{position:fixed;inset:0 auto 0 0;margin:0;width:min(440px,92vw);height:100dvh;max-height:100dvh;border-radius:0 18px 18px 0;padding:26px 22px}.question-drawer nav{gap:8px}.question-drawer nav h3{font-size:12px;letter-spacing:2px;color:var(--muted);margin:12px 0 3px}.question-drawer nav button{display:block;padding:14px;text-align:left;line-height:1.5}.question-drawer nav strong{display:block;font-size:16px}.question-drawer nav small{display:block;margin:6px 0 0;font-size:11px;font-weight:400;line-height:1.7}.question-drawer nav button[aria-current="page"]{box-shadow:inset 3px 0 var(--teal)}
 @media(max-width:1000px){main{padding-left:46px}.question-nav-button{width:31px;font-size:13px;padding:12px 6px}}
+
+/* Entry cover */
+.cover{min-height:100vh;min-height:100svh;display:grid;place-items:center;padding:64px 24px;background:radial-gradient(ellipse at 50% 15%,#e5f5f2 0,transparent 65%),var(--bg)}
+.cover-content{width:100%;max-width:1120px;text-align:center}
+.cover-kicker{margin:0 0 26px;color:var(--teal);font-size:15px;letter-spacing:2px}
+.cover h1{font-size:clamp(32px,4.4vw,60px);line-height:1.45;letter-spacing:-1px;margin:0;text-wrap:balance}
+.cover-references{margin:36px auto 0;max-width:780px}
+.cover-references h2{font-size:14px;font-weight:500;color:var(--muted);margin:0 0 16px}
+.cover-references nav{display:flex;flex-wrap:wrap;justify-content:center;gap:12px 24px;font-size:14px;line-height:1.8}
+.cover-references a{color:var(--teal);text-underline-offset:5px;text-decoration-color:#087e8350}
+.cover-references a:hover{text-decoration-color:var(--teal)}
+.cover-start{margin:44px auto 0}
+@media(max-width:600px){.cover{padding:44px 24px}.cover-kicker{font-size:12px}.cover-references nav{flex-direction:column;gap:12px}.cover-start{margin-top:32px}}

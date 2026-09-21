@@ -3,10 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>数据结构 · 看见每一步</title>
+  <title>数据结构：可视化demo演示</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <section id="cover" class="cover" aria-labelledby="coverTitle">
+    <div class="cover-content">
+      <p class="cover-kicker">计算机科学导论 · 助教演示</p>
+      <h1 id="coverTitle">数据结构：可视化demo演示</h1>
+      <div class="cover-references"><h2>参考网页</h2><nav aria-label="参考网页"><a href="https://www.cs.usfca.edu/~galles/visualization/Algorithms.html" target="_blank" rel="noopener">USF 数据结构可视化</a><a href="https://visualgo.net/en/heap" target="_blank" rel="noopener">VisuAlgo 二叉堆</a><a href="https://www.cs.cmu.edu/~cburch/survey/recurse/hanoiex.html" target="_blank" rel="noopener">CMU 汉诺塔调用栈</a><a href="https://introcs.cs.princeton.edu/java/23recursion/AnimatedHanoi.java.html" target="_blank" rel="noopener">Princeton 汉诺塔动画</a></nav></div>
+      <button id="startButton" class="primary cover-start">开始演示 <span aria-hidden="true">→</span></button>
+    </div>
+  </section>
+  <div id="demoContent" hidden>
   <button id="questionNavButton" class="question-nav-button" aria-haspopup="dialog" aria-controls="questionNav" aria-expanded="false"><span aria-hidden="true">☰</span><span>目录</span></button>
   <header class="topbar">
     <a class="brand" href="index.html"><span class="brand-icon">▥</span><span>数据结构<span class="brand-sub">看见每一步</span></span></a>
@@ -31,6 +40,7 @@
   <dialog id="menu"><div class="dialog-heading"><h2>演示目录</h2><button id="closeMenu" class="quiet" aria-label="关闭目录">✕</button></div><nav id="chapterList"></nav><div class="settings"><label for="speed">动画速度</label><select id="speed"><option value="0.65">慢速 · 0.65×</option><option value="1" selected>标准 · 1×</option><option value="1.7">快速 · 1.7×</option><option value="3">速览 · 3×</option></select></div><details><summary>课件与参考</summary><p>课件：Slide04-DataStructure；助教补充 v4。</p><p><a href="https://www.cs.usfca.edu/~galles/visualization/Algorithms.html" target="_blank" rel="noopener">USF 数据结构可视化</a> · <a href="https://visualgo.net/en/heap" target="_blank" rel="noopener">VisuAlgo 二叉堆</a> · <a href="https://www.cs.cmu.edu/~cburch/survey/recurse/hanoiex.html" target="_blank" rel="noopener">CMU 汉诺塔调用栈</a> · <a href="https://introcs.cs.princeton.edu/java/23recursion/AnimatedHanoi.java.html" target="_blank" rel="noopener">Princeton 汉诺塔动画</a></p></details></dialog>
   <dialog id="imageDialog" class="wide-dialog"><div class="dialog-heading"><h2 id="imageDialogTitle">试卷原题</h2><button id="closeImage" class="quiet" aria-label="关闭原题">✕</button></div><img id="largeQuestion" alt=""><p id="largeSource" class="large-source"></p></dialog>
   <dialog id="snapshotDialog" class="wide-dialog"><div class="dialog-heading"><h2>二叉堆 · 每次插入后的结果</h2><button id="closeSnapshots" class="quiet" aria-label="关闭建堆结果">✕</button></div><div id="snapshotGallery"></div></dialog>
+  </div>
   <script src="demo.js"></script>
 </body>
 </html>
