@@ -97,7 +97,7 @@ I warmly welcome collaborations and research discussions. Please feel free to re
 
 # 🤝 Academic Service
 
-- **Reviewer:** CVPR 2026, ECCV 2026, NeurIPS 2026, AAAI 2027
+- **Reviewer:** CVPR 2026, ECCV 2026, NeurIPS 2026, AAAI 2027, ICLR 2027
 - **Workshop Co-organizer:** NTIRE 2026: Image SR & Infrared SR
 - **Teaching Assistant:** Introduction to Computer Science (CS0502-04), Shanghai Jiao Tong University, Fall 2026. Instructor: Prof. [Yulun Zhang](https://yulunzhang.com/).
 
