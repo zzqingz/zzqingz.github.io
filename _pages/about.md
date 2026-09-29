@@ -23,6 +23,16 @@ I warmly welcome collaborations and research discussions. Please feel free to re
 <h1 class="publications-heading"><span>📝 Publications</span><a class="scholar-badge" href="{{ site.author.googlescholar }}" aria-label="Google Scholar: {{ site.data.scholar.citations }} citations"><img src="https://img.shields.io/badge/Citations-{{ site.data.scholar.citations }}-5383ec?logo=Google%20Scholar&amp;labelColor=ffffff&amp;style=plastic" alt="Google Scholar citations: {{ site.data.scholar.citations }}" height="18"></a></h1>
 
 <article class="publication-entry" markdown="0">
+<div class="publication-venue"><span class="venue-badge">NeurIPS</span></div>
+<div class="publication-details">
+<h3>DRScaffold: Boosting Dense-Scene Reasoning in Lightweight Vision Language Models</h3>
+<p>Xinrui Shi<sup>&#42;</sup>, Kai Liu<sup>&#42;</sup>, <strong>Ziqing Zhang</strong>, Jianze Li, Anqi Li, Yulun Zhang<sup>†</sup><br>
+<strong>NeurIPS 2026</strong><br>
+<a href="https://arxiv.org/abs/2605.26038">Paper</a> · <span class="publication-code"><a href="https://github.com/irene-shi/DRScaffold">Code</a> <a class="repo-stars" href="https://github.com/irene-shi/DRScaffold/stargazers"><img src="https://img.shields.io/github/stars/irene-shi/DRScaffold?style=social&amp;label=Stars" alt="GitHub stars for irene-shi/DRScaffold" height="18"></a></span></p>
+</div>
+</article>
+
+<article class="publication-entry" markdown="0">
 <div class="publication-venue"><span class="venue-badge">ICML</span></div>
 <div class="publication-details">
 <h3>InfVSR: Toward Consistency-Driven Streaming Generative Video Super-Resolution</h3>
@@ -53,16 +63,6 @@ I warmly welcome collaborations and research discussions. Please feel free to re
 </article>
 
 ## Preprints
-
-<article class="publication-entry" markdown="0">
-<div class="publication-venue"><span class="venue-badge venue-badge--preprint">arXiv</span></div>
-<div class="publication-details">
-<h3>DRScaffold: Boosting Dense-Scene Reasoning in Lightweight Vision Language Models</h3>
-<p>Xinrui Shi<sup>&#42;</sup>, Kai Liu<sup>&#42;</sup>, <strong>Ziqing Zhang</strong>, Jianze Li, Anqi Li, Yulun Zhang<sup>†</sup><br>
-<strong>arXiv, 2026</strong><br>
-<a href="https://arxiv.org/abs/2605.26038">Paper</a> · <span class="publication-code"><a href="https://github.com/irene-shi/DRScaffold">Code</a> <a class="repo-stars" href="https://github.com/irene-shi/DRScaffold/stargazers"><img src="https://img.shields.io/github/stars/irene-shi/DRScaffold?style=social&amp;label=Stars" alt="GitHub stars for irene-shi/DRScaffold" height="18"></a></span></p>
-</div>
-</article>
 
 <article class="publication-entry" markdown="0">
 <div class="publication-venue"><span class="venue-badge venue-badge--preprint">arXiv</span></div>
