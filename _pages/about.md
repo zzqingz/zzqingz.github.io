@@ -67,6 +67,26 @@ I warmly welcome collaborations and research discussions. Please feel free to re
 <article class="publication-entry" markdown="0">
 <div class="publication-venue"><span class="venue-badge venue-badge--preprint">arXiv</span></div>
 <div class="publication-details">
+<h3>Discrete Annotation, Continuous Preference: Rethinking Supervision for Accurate and Generalizable Aesthetic Image Cropping</h3>
+<p><strong>Ziqing Zhang</strong><sup>&#42;</sup>, Xiao Liu<sup>&#42;</sup>, Kai Liu, Jianze Li, Weihang Zhang, Linghe Kong, Yulun Zhang<sup>†</sup><br>
+<strong>arXiv, 2026</strong><br>
+<a href="https://arxiv.org/abs/2610.00582">Paper</a> · <span class="publication-code"><a href="https://github.com/zzqingz/CPIC">Code</a> <a class="repo-stars" href="https://github.com/zzqingz/CPIC/stargazers"><img src="https://img.shields.io/github/stars/zzqingz/CPIC?style=social&amp;label=Stars" alt="GitHub stars for zzqingz/CPIC" height="18"></a></span></p>
+</div>
+</article>
+
+<article class="publication-entry" markdown="0">
+<div class="publication-venue"><span class="venue-badge venue-badge--preprint">arXiv</span></div>
+<div class="publication-details">
+<h3>FrameLite: Decision-Oriented Aesthetic Cropping with a Compact Vision-Language Model</h3>
+<p>Jianze Li, Kai Liu, <strong>Ziqing Zhang</strong>, Weihang Zhang, Yong Guo, Linghe Kong, Yulun Zhang<sup>†</sup><br>
+<strong>arXiv, 2026</strong><br>
+<a href="https://arxiv.org/abs/2610.17639">Paper</a> · <span class="publication-code"><a href="https://github.com/JianzeLi-114/FrameLite">Code</a> <a class="repo-stars" href="https://github.com/JianzeLi-114/FrameLite/stargazers"><img src="https://img.shields.io/github/stars/JianzeLi-114/FrameLite?style=social&amp;label=Stars" alt="GitHub stars for JianzeLi-114/FrameLite" height="18"></a></span></p>
+</div>
+</article>
+
+<article class="publication-entry" markdown="0">
+<div class="publication-venue"><span class="venue-badge venue-badge--preprint">arXiv</span></div>
+<div class="publication-details">
 <h3>Dog-IQA: Standard-guided Zero-shot MLLM for Mix-grained Image Quality Assessment</h3>
 <p>Kai Liu<sup>&#42;</sup>, <strong>Ziqing Zhang</strong><sup>&#42;</sup>, Wenbo Li, Renjing Pei, Fenglong Song, Xiaohong Liu, Linghe Kong<sup>†</sup>, Yulun Zhang<sup>†</sup><br>
 <strong>arXiv, 2024</strong><br>
